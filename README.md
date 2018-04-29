@@ -1,40 +1,20 @@
-# React-Static Starter
+# Website code of www.dvae.net
 
-This repo is a ready-to-deploy mirror of React-Static's `basic` example template. It includes:
+This website is based on React-Static's `basic` example template. It includes:
 - Babel
 - CSS imports
 - Image imports
 - File imports
 - Automatic Routing
 
-## One-click Deployments
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tannerlinsley/react-static-starter)
+The code is hosted in github, and each time a new revision is pushed, netlify.com does an auto deploy
 
-## React-Static Documentation
-Visit the  [React-Static Github Repo](https://github.com/nozzle/react-static)!
+## TODO
+- Remove inline JS in index.html
+- configure Content Security Policy to not allow inline JS
+- re-run https://observatory.mozilla.org/analyze/adoring-mayer-5b011f.netlify.com
+- remove ETAG caching for immutable resources
+- add custom fonts
+- update content
+- add a game
 
-## Quick Start
-
-1. Install dependencies: `yarn` or `npm install`
-2. Start the dev server: `yarn start` or `npm run start`
-3. Build for production: `yarn build` or `npm run build`
-3. Test a production build: `yarn serve` or `npm run serve`
-
-#### Other examples are also available for common project formats!
-
-- [Blank (Create-React-App)](https://github.com/nozzle/react-static/tree/master/examples/blank)
-- [Preact](https://github.com/nozzle/react-static/tree/master/examples/preact)
-- [Animated Routes](https://github.com/nozzle/react-static/tree/master/examples/animated-routes)
-- [Custom Routing](https://github.com/nozzle/react-static/tree/master/examples/custom-routing)
-- [Dynamic Imports (code-splitting)](https://github.com/nozzle/react-static/tree/master/examples/dynamic-imports)
-- [Dynamic Imports (code-splitting with SSR)](https://github.com/nozzle/react-static/tree/master/examples/dynamic-imports-with-ssr)
-- [Firebase Auth](https://github.com/nozzle/react-static/tree/master/examples/firebase-auth)
-- [Glamorous & Tailwind CSS](https://github.com/nozzle/react-static/tree/master/examples/glamorous-tailwind)
-- [Glamorous](https://github.com/nozzle/react-static/tree/master/examples/glamorous)
-- [LESS & Antdesign](https://github.com/nozzle/react-static/tree/master/examples/less-antdesign)
-- [Styled-Components](https://github.com/nozzle/react-static/tree/master/examples/styled-components)
-- [Redux](https://github.com/nozzle/react-static/tree/master/examples/redux)
-- [Apollo GraphQL](https://github.com/nozzle/react-static/tree/master/examples/apollo)
-- [Apollo & Redux](https://github.com/nozzle/react-static/tree/master/examples/apollo-redux)
-- [TypeScript](https://github.com/nozzle/react-static/tree/master/examples/typescript)
-- [Cordova (Hybrid App)](https://github.com/nozzle/react-static/tree/master/examples/cordova)
